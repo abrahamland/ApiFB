@@ -10,7 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-
+//using Microsoft.AspNetCore.Facebook;
+using Microsoft.AspNetCore.Authentication.Facebook ;
 namespace FbBackEnd
 {
     public class Startup
@@ -26,6 +27,11 @@ namespace FbBackEnd
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddAuthentication().AddFacebook(facebookOptions =>
+            {
+                facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
+                facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
+            });            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,5 +53,7 @@ namespace FbBackEnd
                 endpoints.MapControllers();
             });
         }
+
+
     }
 }

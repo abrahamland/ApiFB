@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "FbBackEnd/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Facebook": "3.1.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -312,6 +313,17 @@
         },
         "compile": {
           "FbBackEnd.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/3.1.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.100.19.56601"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2013,6 +2025,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VtkBmB6TnL4AR0kLPdErqr/NT7Jc9SP3Jtrl6XfNEir88p1z8QzQZ3pWS1faL4h3EH2RDK/oWUq25VaZlJnzDQ==",
+      "path": "microsoft.aspnetcore.authentication.facebook/3.1.0",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.3.1.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

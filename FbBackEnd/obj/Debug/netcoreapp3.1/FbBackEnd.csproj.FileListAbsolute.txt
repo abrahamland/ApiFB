@@ -16,3 +16,5 @@ d:\AddsFB\FbBackEnd\obj\Debug\netcoreapp3.1\FbBackEnd.AssemblyInfo.cs
 d:\AddsFB\FbBackEnd\obj\Debug\netcoreapp3.1\FbBackEnd.RazorTargetAssemblyInfo.cache
 d:\AddsFB\FbBackEnd\obj\Debug\netcoreapp3.1\FbBackEnd.dll
 d:\AddsFB\FbBackEnd\obj\Debug\netcoreapp3.1\FbBackEnd.pdb
+D:\AddsFB\FbBackEnd\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
+D:\AddsFB\FbBackEnd\obj\Debug\netcoreapp3.1\FbBackEnd.csproj.CopyComplete
